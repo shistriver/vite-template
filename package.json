@@ -1,0 +1,18 @@
+{
+  "name": "vite_test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build-dev": "cross-env NODE_ENV=development vite build",
+    "build-prd": "cross-env NODE_ENV=production vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "vite": "^1.0.0-rc.13"
+  }
+}
